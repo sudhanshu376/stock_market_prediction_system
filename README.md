@@ -9,6 +9,16 @@ Data collection: A wide range of financial data, including historical stock pric
 Feature engineering: Relevant features will be extracted from the collected data, including financial indicators, sentiment scores, and other relevant market data. These features will be used to train the prediction models.
 
 Modeling: A variety of machine learning models will be used to make predictions about the stock prices and the ideal quantity to buy or sell. These models include time-series models such as ARIMA, SARIMA, and LSTM, supervised learning models such as Random Forest, XGBoost, and Support Vector Regression, and deep learning models such as Multi-layer Perceptron (MLP),
+Linear Regression: This is a simple and basic model that assumes a linear relationship between the input features and the target variable (stock prices). It's commonly used as a benchmark model to compare the performance of more complex models.
+Ridge Regression: This model is similar to linear regression, but it adds a regularization term to the cost function to prevent overfitting. This makes it a good choice when the number of input features is large.
+Lasso Regression: This model is also similar to linear regression, but it uses a different regularization term that can be useful when the number of input features is large and some of the input features are not important.
+Elastic Net: This model is a combination of Ridge and Lasso regression, it uses a combination of L1 and L2 regularization term, this makes it a good choice when the number of input features is large and some of the input features are not important.
+Support Vector Regression (SVR): This model is a variation of Support Vector Machines (SVMs) that can be used for regression problems. It tries to find the best hyperplane that maximizes the margin between the data points and the hyperplane.
+Random Forest: This model is an ensemble of Decision Trees, it creates a number of decision trees and combine their outputs to improve the prediction.
+Gradient Boosting Machine (GBM): This model is also an ensemble model, it creates a number of decision trees and combines their outputs by adjusting the weights of the trees in a way that improves the prediction error.
+Multiple Linear Regression is a statistical technique used to model the relationship between a dependent variable (also known as the response or target variable) and one or more independent variables (also known as explanatory or predictor variables). It is an extension of simple linear regression, which is used when there is only one independent variable.àdicted values of y and the actual values of y (also known as the residual sum of squares). This can be done using a variety of optimization algorithms, such as gradient descent or the normal equations.
+Multiple linear regression can be used to analyse the relationship between a response variable and multiple predictor variables, and can be used for a variety of applications such as forecasting, prediction, and causal inference.
+
 
 Data Visualization: The system will use popular libraries such as Matplotlib, Seaborn, Plotly, and Dash to create interactive and intuitive visualizations of the predictions, the underlying data, and the sentiment analysis results.
 
